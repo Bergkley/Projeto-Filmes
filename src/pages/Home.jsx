@@ -20,7 +20,8 @@ const Home = () => {
     <div className="container">
       <h2 className="title">Melhores Filmes</h2>
       {topmovies.length === 0 && <p>Carregando...</p>}
-      {topmovies.length > 0 && topmovies.map((moviesURL) => <p>{moviesURL.title}</p>)}
+      {topmovies.length > 0 &&
+        topmovies.map((moviesURL) => <p>{moviesURL.title}</p>)}
     </div>
   );
 };
