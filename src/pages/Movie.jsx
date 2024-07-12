@@ -6,6 +6,8 @@ import {
   BsHourglassSplit,
   BsFillFileEarmarkTextFill,
 } from "react-icons/bs";
+import "./Movie.css"
+
 
 const Movie = () => {
   return <div>Movie</div>;
