@@ -7,7 +7,6 @@ Este projeto tem como objetivo consumir a API do The Movie Database (TMDb) para 
 React é uma biblioteca JavaScript de código aberto usada para construir interfaces de usuário, particularmente para aplicações de página única (SPA - Single Page Applications). Ela é mantida pelo Facebook e por uma comunidade de desenvolvedores individuais e empresas.
 
 
-
 # Inicializar o Projeto:
 
  **PASSOS PARA RODAR ESTE PROJETO:**
