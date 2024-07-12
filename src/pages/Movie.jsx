@@ -6,9 +6,8 @@ import {
   BsHourglassSplit,
   BsFillFileEarmarkTextFill,
 } from "react-icons/bs";
-import "./Movie.css"
+import "./Movie.css";
 import MovieCard from "../components/MovieCard";
-
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -27,7 +26,6 @@ const Movie = () => {
     getMovie(movieUrl);
   }, []);
 
-  
   const formatCurrency = (number) => {
     return number.toLocaleString("en-US", {
       style: "currency",
@@ -70,6 +68,5 @@ const Movie = () => {
     </div>
   );
 };
-
 
 export default Movie;
